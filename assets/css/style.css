@@ -1,9 +1,3 @@
-/**
-* Template Name: Green - v4.7.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -242,13 +236,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .mobile-nav-toggle {
     display: block;
   }
 
   .navbar ul {
-    display: none;
+    display: none;    
   }
 }
 .navbar-mobile {
@@ -258,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(9, 9, 9, 0.9);
+  background: #5cb874;
   transition: 0.3s;
   z-index: 999;
 }
@@ -270,9 +264,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
+  top: 75px;
   right: 15px;
-  bottom: 15px;
+  bottom: 20px;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -280,8 +274,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
+  justify-content: center;
+  padding: 30px 20px;
+  font-size: 18px;
+  font-weight: bolder;
   color: #222222;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -303,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
+  
 }
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
