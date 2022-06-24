@@ -225,15 +225,15 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
-  font-size: 28px;
+  color: #242424;
+  font-size: 36px;
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: 1s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 768px) {
@@ -269,19 +269,19 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 20px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #5cb874;
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   justify-content: center;
   padding: 30px 20px;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bolder;
-  color: #222222;
+  color: #e2e2e2;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5cb874;
+  color: #313131;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
