@@ -336,7 +336,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-item::before {
   content: "";
-  /* background-color: rgba(45, 103, 60, 0.8); */
+  /* Blur de fondo a la foto principal */
+  
 }
 #hero .carousel-container {
   display: flex;
@@ -508,7 +509,7 @@ section {
 .section-subtitle {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 .section-subtitle h2 {
   font-size: 20px;
@@ -646,6 +647,8 @@ section {
 # Our Clients
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
+  min-width: 130px;
+  
   opacity: 0.5;
   transition: 0.3s;
 }
