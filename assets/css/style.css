@@ -689,6 +689,13 @@ section {
   opacity: 1;
 }
 
+.video_provider{
+  width: 560px;
+  height: 315px;
+  display: flex;  
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Providers Individual Pages
 --------------------------------------------------------------*/
