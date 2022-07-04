@@ -705,7 +705,18 @@ section {
   height: auto;
 }
 
-
+@media (max-width: 768px) {
+  .logo_section_provider {
+    max-width: 200px;
+  }
+}
+/* @media (min-width: 769px) {
+  .logo_section_provider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} */
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
