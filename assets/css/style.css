@@ -648,7 +648,6 @@ section {
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
   min-width: 130px;
-  
   opacity: 0.5;
   transition: 0.3s;
 }
@@ -669,6 +668,27 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #5cb874;
 }
+
+.cardLogoProvider{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  min-width: 130px;
+  max-width: 250px;
+  border: none;
+  padding: 30px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
 
 /*--------------------------------------------------------------
 # Services
