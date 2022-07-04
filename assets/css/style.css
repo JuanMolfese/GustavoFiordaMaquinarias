@@ -689,6 +689,22 @@ section {
   opacity: 1;
 }
 
+/*--------------------------------------------------------------
+# Providers Individual Pages
+--------------------------------------------------------------*/
+.logo_section_provider{
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.logo_provider{
+  width: 100%;
+  height: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Services
