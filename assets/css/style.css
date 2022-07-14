@@ -337,6 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-item::before {
   content: "";
   /* Blur de fondo a la foto principal */
+  /* background-color: rgba(45, 103, 60, 0.8); */
   
 }
 #hero .carousel-container {
