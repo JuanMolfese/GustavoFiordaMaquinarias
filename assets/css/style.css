@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header .logo a {
-  color: #5cb874;
+  color: #706d6d; /* LOGO */
 }
 #header .logo img {
   max-height: 40px;
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-item::before {
   content: "";
   /* Blur de fondo a la foto principal */
-  /* background-color: rgba(45, 103, 60, 0.8); */
+  /* background-color: rgba(209, 26, 26, 0.8);  */
   
 }
 #hero .carousel-container {
