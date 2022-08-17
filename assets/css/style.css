@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
 
 /*--------------------------------------------------------------
 # General
@@ -66,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #topbar .contact-info a:hover {
-  color: #5cb874;
+  color: #5cb874;  
 }
 #topbar .contact-info i {
   color: #5cb874;
@@ -105,11 +107,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 800;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 #header .logo a {
   color: #706d6d; /* LOGO */
+  font-family: 'Pathway Gothic One', sans-serif; /*Fuente LOGO*/
 }
 #header .logo img {
   max-height: 40px;
@@ -154,10 +157,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #5cb874;
+  /* color: #5cb874; */
+  color: #706d6d;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  color: #5cb874;
+  /* color: #5cb874; */
+  color: #706d6d;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 4px;
@@ -337,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-item::before {
   content: "";
   /* Blur de fondo a la foto principal */
-  /* background-color: rgba(209, 26, 26, 0.8);  */
+  background-color: rgba(255, 255, 255, 0.4);  
   
 }
 #hero .carousel-container {
@@ -354,16 +359,18 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #hero h2 {
-  color: #fff;
+  
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px #5a5a5a;
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
 }
 #hero p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #fff;  
 }
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
@@ -1146,6 +1153,10 @@ section {
   background: #5cb874;
   color: #fff;
 }
+.contact .info .address i{   /*Se cambia a ROJO logo de direccion*/
+  color: #ff0000;  
+}
+
 .contact .php-email-form {
   width: 100%;
   border-top: 3px solid #5cb874;
