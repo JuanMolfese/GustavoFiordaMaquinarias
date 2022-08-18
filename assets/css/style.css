@@ -371,12 +371,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h2 {  
   font-family: 'Passion One';
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   /* -webkit-text-stroke: 1.5px #3d3d3d; */
   margin-bottom: 20px;
   font-size: 50px;
   font-weight: 500;
   letter-spacing: 2px;
+  color: #525151;
+ -webkit-text-stroke: 0.5px #ffffff;
 }
 #hero p {
   -webkit-animation-delay: 0.4s;
@@ -463,8 +465,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 28px;    
-    -webkit-text-stroke: 0.9px #2e2d2d;
+    color: #525151;
+    font-size: 38px;
+    font-family: 'Passion One';    
+    -webkit-text-stroke: 0.5px #ffffff;
   }
 }
 @media (min-width: 1024px) {
