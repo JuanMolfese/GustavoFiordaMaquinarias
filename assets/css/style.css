@@ -49,7 +49,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #78c48c;
+  /* background: #78c48c; */
+  background: #d81616;
   color: #fff;
 }
 .back-to-top.active {
@@ -207,7 +208,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #5cb874;
+  /* color: #5cb874; */
+  color: #d81616;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -693,7 +695,8 @@ section {
   border: 1px solid #5cb874;
 }
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5cb874;
+  /* background-color: #5cb874; */
+  background-color: #d81616;
 }
 
 .cardLogoProvider{
