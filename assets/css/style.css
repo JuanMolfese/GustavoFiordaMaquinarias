@@ -293,12 +293,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   justify-content: center;
   padding: 30px 20px;
-  font-size: 26px;
-  font-weight: bolder;
+  font-size: 22px;
+  /* font-weight: bolder; */
   color: #e2e2e2;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #313131;
+  color: #000000;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
