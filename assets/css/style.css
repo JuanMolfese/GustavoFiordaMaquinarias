@@ -724,8 +724,8 @@ section {
   max-width: 250px;
   border: none;
   padding: 30px;
-  opacity: 0.5;
-  transition: 0.3s;
+  /* opacity: 0.5;
+  transition: 0.3s; */
 }
 
 .card:hover {
