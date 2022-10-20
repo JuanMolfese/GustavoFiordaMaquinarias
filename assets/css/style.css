@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   /* background: #5cb874; */
   background: #ffffff;  /*MARCO MENU HAMB*/
-  transition: 0.3s;
+  transition: 0.2s;
   z-index: 999;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   justify-content: center;
   padding: 30px 20px;
-  font-size: 22px;
+  font-size: 28px;
   /* font-weight: bolder; */
   /* color: #e2e2e2; */
   color: #d81616;
