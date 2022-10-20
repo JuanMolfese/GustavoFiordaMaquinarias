@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 1s;
 }
 .mobile-nav-toggle.bi-x {
-  color: rgb(255, 255, 255);
+  color: rgb(247, 19, 19); /* Cruz cerrar menu hamb */
 }
 
 @media (max-width: 768px) {
@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   /* background: #5cb874; */
-  background: #d81616;  /*MARCO MENU HAMB*/
+  background: #ffffff;  /*MARCO MENU HAMB*/
   transition: 0.3s;
   z-index: 999;
 }
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   /* background-color: #5cb874; */
-  background: #d81616;  /*MARCO MENU HAMB*/
+  /* background: #d81616; */  /*MARCO MENU HAMB*/
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -308,11 +308,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 20px;
   font-size: 22px;
   /* font-weight: bolder; */
-  color: #e2e2e2;
+  /* color: #e2e2e2; */
+  color: #d81616;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+/* .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #000000;
-}
+} */
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
