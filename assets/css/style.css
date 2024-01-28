@@ -1,18 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Pathway+Gothic+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Pathway+Gothic+One&display=swap');
 
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
-  font-style: normal;
-  font-weight: normal;
-}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: Inter;
+  font-family: "Open Sans", sans-serif;
   color: #444444;
-  font-weight: 500; 
 }
 
 a {
@@ -29,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Inter;
+  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -107,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 117px;
+  height: 80px;
 }
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -123,14 +117,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo a {
   color: #706d6d; /* LOGO */
-  /* font-family: 'Pathway Gothic One', sans-serif; */ /*Fuente LOGO*/
+  font-family: 'Pathway Gothic One', sans-serif; /*Fuente LOGO*/
 }
 #header .logo a:hover{
   color: #d81616;
 }
 
 #header .logo img {
-  max-height: 53px;
+  max-height: 40px;
 }
 
 .scrolled-offset {
@@ -353,22 +347,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Main Title Section
---------------------------------------------------------------*/
-
-#main_title {
-  max-width:1000px;
-  padding: 50px;
-}
-
-
-
-/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 50%;
-  height: 50vh;
+  width: 100%;
+  height: 70vh;
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
@@ -383,10 +366,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
 }
-/* #hero .carousel-item::before {
-  content: ""; */
+#hero .carousel-item::before {
+  content: "";
   /* Blur de fondo a la foto principal */
-  /* background-color: rgba(255, 255, 255, 0.3); */  
+  background-color: rgba(255, 255, 255, 0.3);  
   
 }
 #hero .carousel-container {
@@ -403,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #hero h2 {  
-  /* font-family: 'Passion One'; */
+  font-family: 'Passion One';
   /* color: rgb(255, 255, 255); */
   /* -webkit-text-stroke: 1.5px #3d3d3d; */
   margin-bottom: 20px;
@@ -471,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #d81616;
 }
 #hero .btn-get-started {
-  /* font-family: "Raleway", sans-serif; */
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -500,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     color: #525151;
     font-size: 38px;
-    /* font-family: 'Passion One'; */    
+    font-family: 'Passion One';    
     -webkit-text-stroke: 0.5px #ffffff;
   }
 }
@@ -734,11 +717,7 @@ section {
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
-  align-items: center;  
-}
-
-.cardContainer{
-  max-width: 936px;
+  align-items: center;
 }
 
 .card{
@@ -911,7 +890,8 @@ section {
 .cta p {
   color: #fff;
 }
-.cta .cta-btn {  
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1128,7 +1108,8 @@ section {
 }
 .team .member p {
   padding-top: 10px;
-  font-size: 14px;  
+  font-size: 14px;
+  font-style: italic;
   color: #aaaaaa;
 }
 .team .member .social {
@@ -1357,8 +1338,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
-  color: #3c3c3c;
+  background: #090909;
+  color: #fff;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1366,13 +1347,15 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #3c3c3c;
-  position: relative;  
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
 #footer p {
-  font-size: 15;  
+  font-size: 15;
+  font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
 }
